@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.2.0">
+  <meta charset="UTF-8">
+  <title>Welcome | jagoly.net</title>
+  <link rel="stylesheet" href="static/styles/normalize.css">
+  <link rel="stylesheet" href="static/styles/default.css">
+  <link rel="stylesheet" href="static/styles/extras.css">
+</head>
+<body>
+  <header>
+    <span class="HeaderTitle"><a href="index.html">JAGOLY.NET</a></span>
+    <div class="HeaderNavigation">
+      <nav class="NavMenuRootLayout">
+        <a class="NavMenuItem" href="about.html">ABOUT</a> <a class="NavMenuItem" href="contact.html">CONTACT</a> <a class="NavMenuItem" id="nmItemSC" href="#">SHOWCASE</a>
+        <div class="NavMenuGroupLayout" id="nmLayoutSC">
+          <a class="NavMenuItem" href="sqee.html">SQEE <img src="static/images/SQEE_64.png" alt="SQEE Logo"></a> <a class="NavMenuItem" href="snake.html">SNAKE <img src="static/images/SNAKE_64.png" alt="SNAKE Logo"></a>
+        </div>
+      </nav>
+      <form class="HeaderSearch" action="search.html" method="get">
+        <input type="search" name="query" placeholder="search...">
+      </form>
+    </div>
+  </header>
+  <div id="Content">
+    <main>
+      <h1>Welcome to Squeaky Software</h1>
+      <p>Squeaky Software index page.</p>
+    </main><input id="ToggleSideBar" type="checkbox" role="button"> <label for="ToggleSideBar"></label>
+    <div id="SideBar">
+      <form id="SideBarMessage" action="message.html" method="get" name="SideBarMessage">
+        <div>
+          <label for="name">Your Name</label> <input id="name" type="text" name="name" autocomplete="name">
+        </div>
+        <div>
+          <label for="email">Your Email</label> <input id="email" type="email" name="email" autocomplete="email">
+        </div>
+        <div>
+          <label for="message">Your Message</label> 
+          <textarea id="message" name="message"></textarea>
+        </div><button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>© 2017 James Gangur</p><a href="https://github.com/jagoly/jagoly-website">This Site on GitHub</a>
+  </footer>
+</body>
+</html>
