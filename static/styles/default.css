@@ -33,11 +33,11 @@ header { background: #ad1457; }
 
 #nmItemSC:hover ~ #nmLayoutSC, #nmLayoutSC:hover { display: flex; }
 
-.HeaderSearch > input { background: #b3e5fc; border: 1px solid #880e4f; border-radius: 2px; color: black; height: 32px; padding: 0px 8px; }
+.HeaderSearch > input { background: #ffebee; border: 1px solid #880e4f; border-radius: 2px; color: black; height: 32px; padding: 0px 8px; }
 @media screen and (max-width: 800px) { .HeaderSearch > input { width: 120px; } }
 @media not screen and (max-width: 800px) { .HeaderSearch > input { width: 300px; } }
 
-main { background: #b3e5fc; padding: 0 1rem; text-align: justify; flex: 1; }
+main { background: #ffebee; padding: 0 1rem; text-align: justify; flex: 1; }
 @media not screen and (max-width: 800px) { main { margin-left: 6px; margin-right: 6px; } }
 main h1 { font-size: 1.5rem; margin: 1.25rem 0; }
 main h2 { font-size: 1.25rem; margin: 1.125rem 0; }
@@ -52,7 +52,7 @@ main li { margin-left: 2rem; }
 @media screen and (max-width: 800px) { #ToggleSideBar + label { display: none; } }
 @media not screen and (max-width: 800px) { #ToggleSideBar + label { width: 24px; margin-left: -24px; } }
 
-#SideBar { background: #ce93d8; padding: 8px; z-index: -1; }
+#SideBar { background: #f8bbd0; padding: 8px; z-index: -1; }
 @media screen and (max-width: 800px) { #SideBar { margin-top: 6px; } }
 @media not screen and (max-width: 800px) { #SideBar { transition: margin-left 0.4s; width: 300px; margin-right: 6px; } }
 
