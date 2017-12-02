@@ -1,8 +1,8 @@
-.InfoCard { border: 2px solid #AA3355; background: #772288; display: inline-block; }
+.InfoCard { border: 2px solid #880e4f; background: #ce93d8; display: inline-block; margin-bottom: 1em; }
 .InfoCard > img { display: inline; vertical-align: top; }
 .InfoCard > div { display: inline-table; margin-left: 1rem; }
 .InfoCard > div > div { display: table-row; }
-.InfoCard > div > div strong, .InfoCard > div > div span, .InfoCard > div > div a { padding-right: 1rem; display: table-cell; vertical-align: middle; color: white; }
+.InfoCard > div > div strong, .InfoCard > div > div span, .InfoCard > div > div a { padding-right: 1rem; display: table-cell; vertical-align: middle; color: black; }
 
 #AboutCard > * { height: 160px; }
 
@@ -17,11 +17,11 @@
 
 #SideBarMessage > div { width: 100%; }
 
-#SideBarMessage > div > label { background: #AA66AA; border: 1px solid #AA3355; border-bottom: 0; border-radius: 4px 4px 0px 0px; height: calc(1em + 9px); padding: 4px; margin-right: auto; color: white; display: inline-block; }
+#SideBarMessage > div > label { background: #ad1457; border: 1px solid #880e4f; border-bottom: 0; border-radius: 4px 4px 0px 0px; height: calc(1em + 9px); padding: 4px; margin-right: auto; color: white; display: inline-block; }
 
-#SideBarMessage > div > input { border: 1px solid #AA3355; border-radius: 0px 2px 2px 2px; height: calc(1.15em + 10px); width: 100%; padding: 4px; margin-bottom: 8px; display: block; }
+#SideBarMessage > div > input { background: #b3e5fc; border: 1px solid #880e4f; border-radius: 0px 2px 2px 2px; color: black; height: calc(1.15em + 10px); width: 100%; padding: 4px; margin-bottom: 8px; display: block; }
 
-#SideBarMessage > div > textarea { border: 1px solid #AA3355; border-radius: 0px 2px 2px 2px; height: calc(4.6em + 10px); width: 100%; padding: 4px; margin-bottom: 8px; display: block; resize: none; }
+#SideBarMessage > div > textarea { background: #b3e5fc; border: 1px solid #880e4f; border-radius: 0px 2px 2px 2px; height: calc(4.6em + 10px); width: 100%; padding: 4px; margin-bottom: 8px; display: block; resize: none; }
 
-#SideBarMessage > button { color: white; transition: background 0.2s; background: #AA66AA; border: 1px solid #AA3355; border-radius: 2px; width: 100%; padding: 6px; color: white; display: inline-block; }
-#SideBarMessage > button:hover { background: #BB77BB; }
+#SideBarMessage > button { color: white; transition: background 0.2s; background: #ad1457; border: 1px solid #880e4f; border-radius: 2px; width: 100%; padding: 6px; color: white; display: inline-block; }
+#SideBarMessage > button:hover { background: #c2185b; }
