@@ -44,12 +44,6 @@ main h2 { font-size: 1.25rem; margin: 1.125rem 0; }
 main h3, main p { font-size: 1rem; margin: 1rem 0; }
 main li { margin-left: 2rem; }
 
-#InfoCard { border: 2px solid #AA3355; background: #772288; color: white; display: inline-block; }
-#InfoCard > img { display: inline; vertical-align: top; width: 120px; }
-#InfoCard > div { display: inline-table; margin-left: 1rem; height: 160px; }
-#InfoCard > div > div { display: table-row; }
-#InfoCard > div > div strong, #InfoCard > div > div span { padding-right: 1rem; display: table-cell; vertical-align: middle; }
-
 #ToggleSideBar { display: none; }
 @media not screen and (max-width: 800px) { #ToggleSideBar:checked ~ #SideBar { margin-left: -306px; } }
 
