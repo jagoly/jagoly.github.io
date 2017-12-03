@@ -40,14 +40,20 @@ header { background: #ad1457; }
 #Showcase { background: #ad1457; }
 
 #ToggleShowcase { display: none; }
-#ToggleShowcase:checked + label { background: url("images/arrows_up.png"); }
-#ToggleShowcase:checked ~ #ShowcaseBanner { margin-bottom: -100px; }
+#ToggleShowcase:checked + label { background-image: url("images/arrows_up.png"); }
+@media not screen and (max-width: 800px) { #ToggleShowcase:checked ~ #ShowcaseBanner { margin-bottom: -152px; } }
+@media screen and (max-width: 800px) { #ToggleShowcase:checked ~ #ShowcaseBanner { margin-bottom: -98px; } }
 
-#ToggleShowcase + label { width: 54px; height: 30px; background: url("images/arrows_down.png"); display: block; position: relative; top: -40px; margin-left: 12em; margin-bottom: -30px; }
+#ToggleShowcase + label { width: 54px; height: 30px; background-image: url("images/arrows_down.png"); background-size: contain; display: block; position: relative; top: -40px; margin-left: 12em; margin-bottom: -30px; }
 
-#ShowcaseBanner { background: #f8bbd0; transition: margin-bottom 0.4s; height: 100px; margin-left: 6px; margin-right: 6px; margin-bottom: 6px; }
-#ShowcaseBanner > a { display: inline-block; height: 100px; width: 100px; padding: 10px; }
-#ShowcaseBanner > a > img { display: block; height: 80px; width: 80px; }
+#ShowcaseBanner { display: flex; flex-direction: row; background: #f8bbd0; transition: margin-bottom 0.4s; margin-bottom: 6px; justify-content: center; }
+@media screen and (max-width: 800px) { #ShowcaseBanner { height: 98px; } }
+@media not screen and (max-width: 800px) { #ShowcaseBanner { margin-left: 6px; margin-right: 6px; height: 152px; } }
+#ShowcaseBanner > a { display: block; padding: 4px 2px; text-decoration: none; }
+#ShowcaseBanner > a > img { display: block; }
+@media screen and (max-width: 800px) { #ShowcaseBanner > a > img { width: 160px; } }
+@media not screen and (max-width: 800px) { #ShowcaseBanner > a > img { width: 256px; } }
+#ShowcaseBanner > a > span { display: block; position: relative; top: -40px; font-weight: bold; text-align: center; font-size: 16px; text-shadow: 0px 0px 4px black; color: white; }
 
 main { background: #ffebee; padding: 0 1rem; text-align: justify; flex: 1; }
 @media not screen and (max-width: 800px) { main { margin-left: 6px; margin-right: 6px; } }
