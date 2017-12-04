@@ -13,8 +13,12 @@
 
 .Screenshot { position: relative; width: 100%; }
 
-#SnakeCanvas { margin: 10px auto; display: block; }
-
+@media screen and (max-width: 800px) { #SnakeFlex { display: none; } }
+@media not screen and (max-width: 800px) { #SnakeError { display: none; }
+  #SnakeFlex { display: flex; flex-direction: row; }
+  #SnakeInfo { margin: 16px 8px 16px 0px; border: 2px solid #880e4f; background: #f8bbd0; flex: 1; }
+  #SnakeInfo > p { margin: 1em; }
+  #SnakeCanvas { margin: 16px 0px 16px 8px; width: 440px; height: 440px; flex: 0; } }
 #SideBarMessage > div { width: 100%; }
 
 #SideBarMessage > div > label { background: #ad1457; border: 1px solid #880e4f; border-bottom: 0; border-radius: 4px 4px 0px 0px; height: calc(1em + 9px); padding: 4px; margin-right: auto; color: white; display: inline-block; }

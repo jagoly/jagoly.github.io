@@ -23,15 +23,11 @@ header { background: #ad1457; }
 
 .NavMenuItem { color: white; transition: background 0.2s; background: #ad1457; font-weight: bold; text-decoration: none; text-align: right; line-height: 24px; height: 32px; padding: 4px 8px; display: block; }
 .NavMenuItem:hover { background: #c2185b; }
-.NavMenuItem > img { float: right; height: 100%; margin-left: 4px; }
+.NavMenuItem > img { height: 100%; }
 
 .NavMenuRootLayout > .NavMenuItem { margin-right: 6px; }
 
-.NavMenuGroupLayout > .NavMenuItem { margin-top: 6px; }
-
-#nmItemSC { margin: 0 0 0 auto; }
-
-#nmItemSC:hover ~ #nmLayoutSC, #nmLayoutSC:hover { display: flex; }
+#nmItemSnake { margin: 0 0 0 auto; }
 
 .HeaderSearch > input { background: #ffebee; border: 1px solid #880e4f; border-radius: 2px; color: black; height: 32px; padding: 0px 8px; }
 @media screen and (max-width: 800px) { .HeaderSearch > input { width: 120px; } }
