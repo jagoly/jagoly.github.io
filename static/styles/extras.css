@@ -4,7 +4,7 @@
 .InfoCard > div > div { display: table-row; }
 .InfoCard > div > div strong, .InfoCard > div > div span, .InfoCard > div > div a { padding-right: 1rem; display: table-cell; vertical-align: middle; color: black; }
 
-#AboutCard > * { height: 160px; }
+#AboutCard > * { height: 200px; }
 
 #ContactCard > * { height: 120px; }
 
