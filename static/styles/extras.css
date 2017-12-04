@@ -19,13 +19,3 @@
   #SnakeInfo { margin: 16px 8px 16px 0px; border: 2px solid #880e4f; background: #f8bbd0; flex: 1; }
   #SnakeInfo > p { margin: 1em; }
   #SnakeCanvas { margin: 16px 0px 16px 8px; width: 440px; height: 440px; flex: 0; } }
-#SideBarMessage > div { width: 100%; }
-
-#SideBarMessage > div > label { background: #ad1457; border: 1px solid #880e4f; border-bottom: 0; border-radius: 4px 4px 0px 0px; height: calc(1em + 9px); padding: 4px; margin-right: auto; color: white; display: inline-block; }
-
-#SideBarMessage > div > input { background: #ffebee; border: 1px solid #880e4f; border-radius: 0px 2px 2px 2px; color: black; height: calc(1.15em + 10px); width: 100%; padding: 4px; margin-bottom: 8px; display: block; }
-
-#SideBarMessage > div > textarea { background: #ffebee; border: 1px solid #880e4f; border-radius: 0px 2px 2px 2px; height: calc(4.6em + 10px); width: 100%; padding: 4px; margin-bottom: 8px; display: block; resize: none; }
-
-#SideBarMessage > button { color: white; transition: background 0.2s; background: #ad1457; border: 1px solid #880e4f; border-radius: 2px; width: 100%; padding: 6px; color: white; display: inline-block; }
-#SideBarMessage > button:hover { background: #c2185b; }
